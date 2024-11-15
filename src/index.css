@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.modal-container {
+  width: 100%;
+  height: 100svh;
+  background-image: url('https://res.cloudinary.com/dcty5i9mu/image/upload/v1724224689/movie-image/luuuxdfubbdukhy1sidf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.modal-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 600px;
+  background-color: #00000080;
+  border-radius: 8px;
+  padding: 16px;
+  border: 2px solid #9900ff;
+  box-shadow: 2px 4px 30px 10px #90f;
+  -webkit-box-shadow: 2px 4px 30px 10px #9900ff;
+  position: relative;
+}
+
+.modal-content h1 {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.modal-content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.modal-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-62 {
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  border: 0;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 2px 3rem;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+.spesial {
+  z-index: 5;
+  position: absolute;
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+}
+
+.spesial-1 {
+  z-index: 5;
+  position: absolute;
+  top: -25%;
+  left: -65%;
+  width: 150%;
+  height: 150%;
+}
+
+.spesial-2 {
+  z-index: 5;
+  position: absolute;
+  top: -25%;
+  left: 6%;
+  width: 150%;
+  height: 150%;
+}
+
+.spesial-3 {
+  z-index: 5;
+  position: absolute;
+  top: -25%;
+  left: -60%;
+  width: 150%;
+  height: 150%;
+}
+
+.spesial-4 {
+  z-index: 5;
+  position: absolute;
+  top: -25%;
+  left: 0%;
+  width: 150%;
+  height: 150%;
+}
+
+.spesial {
+  z-index: 5;
+  position: absolute;
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+}
+
+.test {
+  display: none;
+}
